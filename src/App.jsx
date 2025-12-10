@@ -24,8 +24,8 @@ function App() {
               <a href="/CV_Gabriel-Imanullah.pdf" download className="inline-block bg-red-700 p-4 rounded-2xl hover:bg-red-600">
                 Download CV <i className="ri-file-download-line ri-lg"></i>
               </a>
-              <a href="https://github.com/gabrielipp" target="_blank" className="inline-block bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
-                Kunjungi Github <i className="ri-github-line ri-lg"></i>
+              <a href="https://www.linkedin.com/in/gabriel-imanullah-putra/" target="_blank" className="inline-block bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
+                Kunjungi Linkedin <i className="ri-linkedin-line ri-lg"></i>
               </a>
             </div>
           </div>
@@ -50,7 +50,7 @@ function App() {
           <img src={DataImage.HeroImage} className="w-12 rounded-md sm:block hidden" />
           <div className="flex items-center gap-6">
             <div>
-              <h1 className="text-4xl mb-1">10<span className="text-red-500">+</span></h1>
+              <h1 className="text-4xl mb-1">18<span className="text-red-500">+</span></h1>
               <p>Proyek Selesai</p>  
             </div>
             <div>
@@ -94,7 +94,7 @@ function App() {
             key={proyek.id}
             className="p-4 bg-zinc-800 rounded-md shadow-md border border-zinc-700 hover:border-red-600 transition"
             data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad} data-aos-once="true">
-            <img src={proyek.gambar} alt="Proyek Image" loading="lazy" className="w-full rounded-md mb-4" />
+            <img src={proyek.gambar} alt="Proyek Image" loading="lazy" className="w-full h-50 rounded-md mb-4" />
 
             <h1 className="text-2xl font-bold mb-3">{proyek.nama}</h1>
             <p className="text-base/loose opacity-80 mb-4">{proyek.desk}</p>
